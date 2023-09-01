@@ -8,6 +8,10 @@ The finished solution for the challenge included in module 1.
 
 ![Alt text](module-two-challenge-screenshot.png)
 
+## Deployment link:
+
+https://silverfoot42.github.io/module-two-challenge/
+
 ## Links to images used:
 
 https://themepack.me/i/c/749x467/media/g/1045/underwater-theme-rd9.jpg
