@@ -13,14 +13,10 @@
 
 /*Aligns title to the left and designates the size.*/
 h1 {
-    text-align: left;
     font-size: 300%;
 }
 
-nav {
-    display: block;
-}
-
+/*Formats the nav bar*/
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -28,15 +24,18 @@ nav ul {
     font-size: 150%;
 }
 
+/*Styles the links in the nav bar*/
 nav a {
     color: black;
     text-decoration: none;
 }
 
+/*Changes the color of the links when hovered over*/
 nav a:hover {
     color: white;
 }
 
+/*Formats and styles the about me section*/
 #about-me {
     display: flex; 
     flex-direction: column;
@@ -45,14 +44,17 @@ nav a:hover {
     background-image: url("../images/underwater-theme-rd9.jpg");
 }
 
+/*Formats and styles the heading for the about me section*/
 #about-me h2 {
     margin-left: auto;
     margin-right: auto;
     border: 5px solid;
     border-bottom: 0;
+    border-top: 0;
     background-color: aqua;
 }
 
+/*Formats the image in the about me section*/
 #about-me img {
     display: flex;
     margin-left: auto;
@@ -64,6 +66,7 @@ nav a:hover {
     border-bottom: 0;
 }
 
+/*Formats and styles the paragraph in the about me section*/
 #about-me p {
     margin-left: auto;
     margin-right: auto;
@@ -73,6 +76,7 @@ nav a:hover {
     background-color: aqua;
 }
 
+/*Formats and styles the my work section*/
 #my-work {
     display: flex; 
     flex-direction: column;
@@ -80,6 +84,7 @@ nav a:hover {
     background-image: url("../images/waves.jpg");
 }
 
+/*Formats and styles the heading for the my work section*/
 #my-work h2 {
     margin-left: auto;
     margin-right: auto;
@@ -88,23 +93,20 @@ nav a:hover {
     background-color: aqua;
 }
 
+/*Formats the image for the module one screenshot*/
 .module-one-challenge-screenshot {
-    
     width: 100%;
-    
     border-radius: 0px 0px 50px 50px;
 }
 
+/*Formats the place holder images*/
 .work-images {
     height: 100%;
     width: 100%;
     border-radius: 0px 0px 50px 50px;
 }
 
-.header-align {
-    text-align: center;
-}
-
+/*Styles and formats the cards that likn to my different projects*/
 .card {
     border-style: solid;
     border-width: 1px;
@@ -115,10 +117,12 @@ nav a:hover {
     margin-right: 200px;
 }
 
+/*Causes a shadow to appear behind the box when the user hovers over it*/
 .card:hover {
     box-shadow: 4px 4px 8px 0 black, 0 4px 4px 0 black;
 }
 
+/*Styles and formats the headings on the content cards*/
 .work-headings {
     display: flex;
     justify-content: center;
@@ -131,10 +135,12 @@ nav a:hover {
     font-size: larger;
 }
 
+/*causes the links to change color when a user hovers over them*/
 .work-headings:hover {
     color: white;
 }
 
+/*Styles and formats the contact info section*/
 #contact-info {
     text-align: center;
     padding: 80px;
@@ -142,19 +148,18 @@ nav a:hover {
     background-image: url("../images/beach.jpg");
 }
 
+/*styles the email link*/
 #email {
     color: black;
     text-decoration: none;
 }
 
+/*causes the email link to change color when a user hovers over it*/
 #email:hover {
     color: white;
 }
 
-@media screen and (max-width: 992px) {}
-
-@media screen and (max-width: 768px) {}
-
+/*Turns the nave bar into a column when the window size is changed*/
 @media screen and (max-width: 576px) {
     nav ul {
         flex-direction: column;
